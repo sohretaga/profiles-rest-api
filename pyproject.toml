@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "profiles-rest-api"
+version = "0.1.0"
+description = "Profiles REST API course"
+authors = ["Sohret Aga <shohretaga@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.1.6"
+djangorestframework = "^3.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
